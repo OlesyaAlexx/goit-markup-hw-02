@@ -1,5 +1,5 @@
 body {
-font-family:"Roboto", "Raleway", "Verdana", sans-serif;
+font-family:"Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 font-style: normal;
@@ -13,19 +13,21 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.72px;
-    line-height: 1.1;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 h3  {
     color: #2E2F42;
     font-family: "Roboto";
     font-weight: 500;
-    font-size: 20pt;
-    letter-spacing: 0.4px;
+    font-size: 20px;
+    letter-spacing: 0.02em;
     line-height: 1.2;
     }
 p {
     color: #434455;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -34,11 +36,11 @@ p {
 /*#region header*/
 .logo_site {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height:1.16;
+    line-height:1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -48,28 +50,27 @@ p {
 }
 .logo_link {
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
 }
-.logo_link:hover,
+.logo_link:focus,
 .logo_link:active {
     color: #404BBF;
 }
 .logo_address {
     color:#434455;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
 }
-.logo_address:hover {
+.logo_address:focus {
     color: #404BBF;
 }
 /*#endregion*/
@@ -80,7 +81,7 @@ p {
 .page_title {
     color: #FFFFFF;
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -89,14 +90,14 @@ p {
 .buttons {
     color: #FFFFFF;
     background-color: #4D5AE5;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
 }
-.buttons:hover {
+.buttons:focus {
     background-color: #404BBF;
 }
 /*#endregion*/
@@ -109,13 +110,16 @@ p {
 .team_leaders_section {
     background-color: #F4F4FD;
 }
+.team_leaders_link {
+    background-color: #FFFFFF;
+}
 /*#endregion*/
 /*#region footer*/
 .lowland {
     background-color: #2E2F42;
 }
 .logo_footer {
-    color: #FFFFFF;
+    color: #F4F4FD;
 }
 .text_footer {
     color: #F4F4FD;
