@@ -58,6 +58,7 @@ p {
     text-decoration: none;
 }
 .logo_link:focus,
+.logo_link:hover,
 .logo_link:active {
     color: #404BBF;
 }
@@ -70,8 +71,12 @@ p {
     letter-spacing: 0.32px;
     text-decoration: none;
 }
-.logo_address:focus {
+.logo_address:focus,
+.logo_address:hover {
     color: #404BBF;
+}
+.logo_contact {
+    font-style: normal;
 }
 /*#endregion*/
 /*#region main page*/
@@ -97,7 +102,8 @@ p {
     letter-spacing: 0.64px;
     cursor: pointer;
 }
-.buttons:focus {
+.buttons:focus,
+.buttons:hover {
     background-color: #404BBF;
 }
 /*#endregion*/
