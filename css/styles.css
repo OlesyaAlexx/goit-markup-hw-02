@@ -12,7 +12,7 @@ h2 {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.72px;
     line-height: 1.1;
 }
 h3  {
@@ -20,7 +20,7 @@ h3  {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 20pt;
-    letter-spacing: 2%;
+    letter-spacing: 0.4px;
     line-height: 1.2;
     }
 p {
@@ -29,7 +29,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.32px;
 }
 /*#region header*/
 .logo_site {
@@ -52,7 +52,7 @@ p {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.32px;
     text-decoration: none;
 }
 .logo_link:hover,
@@ -66,7 +66,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.32px;
     text-decoration: none;
 }
 .logo_address:hover {
@@ -84,7 +84,7 @@ p {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 2%;
+    letter-spacing: 1.12px;
 }
 .buttons {
     color: #FFFFFF;
@@ -93,7 +93,7 @@ p {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.64px;
     cursor: pointer;
 }
 .buttons:hover {
