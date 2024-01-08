@@ -2,36 +2,9 @@ body {
 font-family:"Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
-font-style: normal;
 }
 ul {
     list-style-type: none;
-}
-h2 {
-    color: #2E2F42;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.72px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-}
-h3  {
-    color: #2E2F42;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    }
-p {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 /*#region header*/
 .logo_site {
@@ -50,7 +23,6 @@ p {
 }
 .logo_link {
     color: #2E2F42;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -64,9 +36,7 @@ p {
 }
 .logo_address {
     color:#434455;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
@@ -86,7 +56,6 @@ p {
 .page_title {
     color: #FFFFFF;
     text-align: center;
-    font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -108,16 +77,81 @@ p {
 }
 /*#endregion*/
 /*#region features*/
+.features_title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.features_category {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.features_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
 .features_section {
     background-color: #FFFFFF;
 }
 /*#endregion*/
-/*#region team leaders**/
+/*#region team leaders*/
+.team_title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team_leaders_name {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.team_leaders_profession {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
 .team_leaders_section {
     background-color: #F4F4FD;
 }
 .team_leaders_link {
     background-color: #FFFFFF;
+}
+/*#endregion*/
+/*#region portfolio*/
+.portfolio_title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.portfolio_card {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.portfolio_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 /*#endregion*/
 /*#region footer*/
@@ -129,4 +163,7 @@ p {
 }
 .text_footer {
     color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }/*#endregion*/
